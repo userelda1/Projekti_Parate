@@ -3,7 +3,8 @@
     int[] coinValues = {25, 10, 5, 1};
     int[] coinCounts = {9, 2, 0, 6};
     int totalAmount = 0;
-    
+    //koment i ri
+    int u=0;
     for(int i = 0; i < coinValues.length; i++) {
         totalAmount += coinValues[i] * coinCounts[i];
     }
