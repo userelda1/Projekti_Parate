@@ -6,6 +6,8 @@
     }
     //koment 
     int y=0;
+    int r=0;
+    //koment
     public int extract(int coinValue) {
         int numCoins = amount / coinValue;
         amount -= numCoins * coinValue;
